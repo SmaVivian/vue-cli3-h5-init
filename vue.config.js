@@ -39,15 +39,18 @@ module.exports = {
       patterns: [path.resolve(__dirname, 'src/assets/css/mixin.less')]
     }
   },
-  // css: {
-  //   loaderOptions: {
-  //     sass: {
-  //       prependData: `
-  //         @import "@/assets/css/mixin.scss";
-  //       `
-  //     }
-  //   }
-  // },
+  css: {
+    loaderOptions: {
+      less: {
+        modifyVars: {
+          red: '#03a9f4',
+          blue: '#3eaf7c',
+          orange: '#f08d49',
+          'text-color': '#111'
+        }
+      }
+    }
+  },
   devServer: {
     port: 8080,
     proxy: {

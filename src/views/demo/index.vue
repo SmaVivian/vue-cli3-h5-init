@@ -8,11 +8,30 @@
       <van-button type="warning">警告按钮</van-button>
       <van-button type="danger">危险按钮</van-button>
     </div>
+
+    <div class="mt-30">
+      <van-cell-group>
+        <van-field v-model="value" placeholder="请输入用户名"/>
+      </van-cell-group>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import { Button, Field, Cell, CellGroup } from 'vant'
+export default {
+  components: {
+    [Button.name]: Button,
+    [Field.name]: Field,
+    [Cell.name]: Cell,
+    [CellGroup.name]: CellGroup
+  },
+  data() {
+    return {
+      value: ''
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
