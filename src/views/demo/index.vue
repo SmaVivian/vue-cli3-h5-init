@@ -34,7 +34,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
+div {
+  font-size: @fontSize1;
+}
 </style>
 
 
