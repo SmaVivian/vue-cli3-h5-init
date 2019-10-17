@@ -56,11 +56,8 @@ VScode 安装插件：[Vetur][prettier][Eslint]
 ## 项目启动
 
 npm i
-<<<<<<< HEAD
-=======
 
-> > > > > > > master
-> > > > > > > npm run dev
+npm run dev
 
 ## 代码规范检查
 
