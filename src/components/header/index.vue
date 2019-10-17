@@ -1,6 +1,6 @@
 <template>
   <div class="cmp-header">
-    <h1>博物馆智慧协同平台</h1>
+    <h1>这是头部</h1>
   </div>
 </template>
 
@@ -14,11 +14,11 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-/* .cmp-header {
+<style lang="less" scoped>
+.cmp-header {
   width: 100%;
-  height: $headerHeight;
-  line-height: $headerHeight;
+  height: @headerHeight;
+  line-height: @headerHeight;
   padding-left: 20px;
   box-sizing: border-box;
   position: absolute;
@@ -27,7 +27,7 @@ export default {
   z-index: 3;
   background-color: #404560;
   color: #fff;
-} */
+}
 </style>
 
 

@@ -13,7 +13,9 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="less">
 @import './assets/css/reset.css';
+// @import './assets/css/element-variables.scss';
+@import '~@/assets/css/theme.less';
 </style>
 

@@ -33,6 +33,12 @@ module.exports = {
       .set('@cmp', resolve('src/components'))
       .set('@views', resolve('src/views'))
   },
+  pluginOptions: {
+    'style-resources-loader': {
+      preProcessor: 'less',
+      patterns: [path.resolve(__dirname, 'src/assets/css/mixin.less')]
+    }
+  },
   // css: {
   //   loaderOptions: {
   //     sass: {
