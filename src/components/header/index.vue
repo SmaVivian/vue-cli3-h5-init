@@ -27,6 +27,7 @@ export default {
   z-index: 3;
   background-color: #404560;
   color: #fff;
+  font-size: 30px;
 }
 </style>
 

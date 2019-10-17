@@ -9,6 +9,7 @@ export default {}
 <style lang="less" scoped>
 div {
   color: red;
+  font-size: 20px;
 }
 </style>
 
