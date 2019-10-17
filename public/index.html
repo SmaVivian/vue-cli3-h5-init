@@ -13,5 +13,29 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
+    <script>
+      window.onload = function () {
+        window.viewportUnitsBuggyfill.init({
+          hacks: window.viewportUnitsBuggyfillHacks
+        });
+  
+        // var winDPI = window.devicePixelRatio;
+        // var uAgent = window.navigator.userAgent;
+        // var screenHeight = window.screen.height;
+        // var screenWidth = window.screen.width;
+        // var winWidth = window.innerWidth;
+        // var winHeight = window.innerHeight;
+        // alert(
+        // "Windows DPI:" + winDPI +
+        // ";\ruAgent:" + uAgent +
+        // ";\rScreen Width:" + screenWidth +
+        // ";\rScreen Height:" + screenHeight +
+        // ";\rWindow Width:" + winWidth +
+        // ";\rWindow Height:" + winHeight
+        // )
+      }
+    </script>
   </body>
 </html>
