@@ -1,4 +1,4 @@
-# vue-cli3-web-init
+# vue-cli3-h5-init
 
 ## Project setup
 ```
