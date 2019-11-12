@@ -30,6 +30,21 @@ export default {
     return {
       value: ''
     }
+  },
+  methods: {
+    getData() {
+      this.$http.get('/list', {}).then(
+        response => {
+          console.log('data:', response)
+        },
+        error => {
+          console.log('异常', error)
+        }
+      )
+    }
+  },
+  created() {
+    this.getData()
   }
 }
 </script>
