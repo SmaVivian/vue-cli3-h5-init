@@ -39,6 +39,7 @@
      [mixin.scss] 自定义变量、混合指令等
 
 3. 文件路径使用例子
+   [vue] `src="~@images/default-head.svg"`
 
    [css] `background: url(~@images/no-data.svg) center center no-repeat;`
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>项目列表_logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="项目列表" transform="translate(-20.000000, -15.000000)">
+            <g id="项目列表_logo" transform="translate(20.000000, 15.000000)">
+                <circle id="椭圆形" fill="#0590FF" cx="25" cy="25" r="25"></circle>
+                <text id="LOGO" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+                    <tspan x="5" y="32">LOGO</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -29,7 +29,7 @@ module.exports = {
     config.resolve.alias
       .set('@', resolve('src'))
       .set('@assets', resolve('src/assets'))
-      .set('@images', resolve('src/images'))
+      .set('@images', resolve('src/assets/images'))
       .set('@cmp', resolve('src/components'))
       .set('@views', resolve('src/views'))
   },
