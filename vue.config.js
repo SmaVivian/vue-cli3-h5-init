@@ -49,7 +49,9 @@ module.exports = {
           'text-color': '#111'
         }
       }
-    }
+    },
+    // 开启 CSS source maps?
+    sourceMap: true
   },
   devServer: {
     port: 8080,
